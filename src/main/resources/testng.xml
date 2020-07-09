@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http:/./testng.org/testng-1.0.dtd" >
 
-<suite name="FreeCRM Automation Test suite " parallel="none">
+<suite name="PageObjectModel Automation Test suite " parallel="none">
 
 
 	/*<listeners>
@@ -8,7 +8,7 @@
 			class-name="com.qa.ExtentReportListener.ExtentReporttestNG"/>
 	</listeners>*/
 
-  <test name= "FreeCRM Application test cases">
+  <test name= "PageObjectModel test cases">
 
     <classes>
         <class name="com.crm.qa.testcases.LoginPageTest"/>
